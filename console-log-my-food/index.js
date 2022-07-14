@@ -99,6 +99,7 @@ readline.on('line', async line => {
 					position = it.next();
 				}
 				readline.prompt();
+				
 			});
 			break;
 	}
